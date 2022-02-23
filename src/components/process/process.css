@@ -1,0 +1,128 @@
+.processCont{
+    width: 100vw;
+    background: #001435;
+    color: white;
+}
+
+.processWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.proHeadOne{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.proTitle{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.proTitle .difColor{
+    color: #14BBEA;
+}
+
+.proDesc{
+    padding: 0 271px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 107px;
+}
+
+.boxWrapper{
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 114px;
+    position: relative;
+}
+
+.boxGroup{
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%,-50%);
+}
+
+.boxCard{
+    width: 278px;
+    height: 386px;
+    border: 1px solid black;
+    border-radius: 19px;
+}
+
+.boxCard.lite{
+    background-color: white;
+    color: black;
+}
+
+.boxCard.dark{
+    background-color: #000000;
+    color: white;
+}
+
+.boxTitle{
+    margin-top: 52px;
+    margin-left: 32px;
+}
+
+.boxTitle.b2{
+    margin-top: 120px;
+}
+
+.boxDesc{
+    margin: 41px 32px;
+}
+
+.boxWrapperTop{
+    flex: 1;
+    display: flex;
+}
+
+.boxWrapperTopLeft{
+    flex: 1;
+}
+
+.boxWrapperTopRight{
+    flex: 1;
+}
+
+.boxWrapperBottom{
+    flex: 1;
+    display: flex;
+    margin-top: 53px;
+}
+
+.boxWrapperBottomLeft{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.boxWrapperBottomRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+

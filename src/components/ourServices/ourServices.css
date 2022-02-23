@@ -1,0 +1,281 @@
+.servicesContainer{
+    width: 100vw;
+    background: #001435;
+    color: white;
+}
+
+.servicesWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.serHeadOne{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.serTitle{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.serTitle .difColor{
+    color: #14BBEA;
+}
+
+.serDesc{
+    padding: 0 271px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.serCardCont{
+    display: flex;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    padding: 0 160px;
+}
+
+.sercard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 19px;
+}
+
+.serImage{
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+}
+
+.cardVertical{
+    width: 248px;
+    height: 330px;
+    padding-left: 40px;
+    margin-right: 20px;
+}
+
+.cardVertical.serImage{
+    margin-top: 77px;
+}
+
+.cardHorizontal{
+    margin-top: 10px;
+    width: 357px;
+    height: 196px;
+    margin-right: 20px;
+    padding-left: 39px;
+}
+
+.sercardTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* margin-top: 19px;
+    margin-bottom: 10px; */
+    padding-top: 19px;
+    padding-bottom: 10px;
+    padding-right: 38px;
+    word-wrap: break-word;
+}
+
+.sercardDesc{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    padding-right: 28px;
+    color: #CCCCCC;
+    word-wrap: break-word;
+}
+
+.sercard:first-child,
+.sercard:nth-child(2){
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+    color: black;
+}
+
+.sercard:nth-child(3){
+    background: #000000;
+    opacity: 0.8;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+}
+
+.ccCont{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 320px;
+}
+
+.ccVertical{
+    margin-right: 91px;
+}
+.ccImage{
+    margin-left: 10px;
+}
+
+.ccImage2{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.cc1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 19px;
+    background-color: #000000;
+    margin-top: 85px;
+    margin-right: 18px;
+}
+
+.cc2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 19px;
+}
+
+.cc3{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 19px;
+}
+
+.pointsWrapper{
+    display: flex;
+    padding: 0 130px;
+}
+
+.pointsLeft{
+    flex: 3;
+    padding-top: 97px;
+}
+
+.pointsList{
+    display: flex;
+    margin-bottom: 29px;
+}
+
+.pointsSub{
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
+}
+
+.pointsListItem{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    word-wrap: break-word;
+    color: #CCCCCC;
+}
+
+.pointsRight{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pointsRightTop{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.pointsImg2{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.pointsLgImg{
+    width: 245px;
+    height: 245px;
+    opacity: 0.8;
+    margin-top: 199px;
+    margin-left: 50px;
+    margin-bottom: 117px;
+}
+
+.raisingList{
+    display: flex;
+    margin-bottom: 29px;
+    padding-left: 200px;
+}
+
+
+.raisingWrapper{
+    display: flex;
+    width: 100%;
+}
+
+.raisingLeft{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.raisingRight{
+    flex: 3;
+    padding-top: 30px;
+
+}
+
+.raisingLeft{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.raisingLeftTop{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 138px;
+    margin-left: -50px;
+}
+
+
+.raisingImg2{
+    margin-left: 10px;
+    margin-top: 38px;
+}
+
+.raisingLgImg{
+    width: 480px;
+    height: 300.26px;
+    object-fit: cover;
+    padding-left: 180px;
+    margin-bottom: 140px;
+}
